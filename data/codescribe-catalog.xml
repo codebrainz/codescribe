@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<glade-catalog name="codescribe" library="libcodescribe-1.0.so" depends="gtk+">
+
+	<glade-widget-classes>
+		<glade-widget-class name="CodeScribeWindow" generic-name="window" title="CodeScribe Window"/>
+		<glade-widget-class name="CodeScribeMenuBar" generic-name="menubar" title="CodeScribe MenuBar"/>
+		<glade-widget-class name="CodeScribeDocument" generic-name="document" title="CodeScribe Document"/>
+		<glade-widget-class name="CodeScribeView" generic-name="view" title="CodeScribe View"/>
+    <glade-widget-class name="CodeScribeNotebook" generic-name="notebook" title="CodeScribe Notebook"/>
+    <glade-widget-class name="CodeScribeStatusbar" generic-name="statusbar" title="CodeScribe Statusbar"/>
+    <glade-widget-class name="CodeScribeToolbar" generic-name="toolbar" title="CodeScribe Toolbar"/>
+	</glade-widget-classes>
+
+	<glade-widget-group name="codescribe-widgets" title="CodeScribe Widgets">
+		<glade-widget-class-ref name="CodeScribeWindow"/>
+		<glade-widget-class-ref name="CodeScribeMenuBar"/>
+		<glade-widget-class-ref name="CodeScribeDocument"/>
+		<glade-widget-class-ref name="CodeScribeView"/>
+    <glade-widget-class-ref name="CodeScribeNotebook"/>
+    <glade-widget-class-ref name="CodeScribeStatusbar"/>
+    <glade-widget-class-ref name="CodeScribeToolbar"/>
+	</glade-widget-group>
+
+</glade-catalog>
